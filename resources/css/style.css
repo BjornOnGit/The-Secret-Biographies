@@ -1,50 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-image: url("https://images.unsplash.com/photo-1479064312651-24524fb55c0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxpYnJhcnklMjBib29rcyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-h1, h2{
-    color: rgba(255, 0, 0, 0.459);
-}
-    
-    h1{
-    font-size: 40px;
-    margin-bottom: 20px;
+h1,
+h2 {
+  color: black;
+  text-transform: uppercase;
 }
 
-h2{
-    font-size: 25px;
-    margin-bottom: 10px
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .main-text {
-    text-align: justify;
-    margin-bottom: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: slategray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
-    width: 1140px;
-    margin: 20px auto 0 auto;
+  width: 1140px;
+  margin: 20px auto 0 auto;
 }
 
 .bio-photo {
-    padding-top: 20px;
-    border-top: 1px solid #808080;
+  margin:30px 0px 0px 30px;
+
+  float: right;
 }
 
-.bio-photo img{
-    height: 100px;
-    width: 100px;
-    float: bottom;
+.bio-photo img {
+  height: 250px;
+  width: 200px;
+  border-radius: 30px;
+ 
 }
